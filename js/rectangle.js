@@ -5,7 +5,7 @@ function calculateAreaOfRectangle(){
     const rectangleWidthValue = parseFloat(rectangleWidthText);
 
 
-    //get rectangle height
+    //get rectangle length
     const rectangleLengthInput = document.getElementById('rectangle-length');
     const rectangleLengthText = rectangleLengthInput.value;
     const rectangleLengthValue = parseFloat(rectangleLengthText);
