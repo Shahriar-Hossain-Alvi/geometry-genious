@@ -68,6 +68,28 @@
 
 
                 <!-- parallelogram -->
+                <div class="card p-4 bg-base-100 shadow-xl">
+                    <figure class="rounded-none"><img src="images/rectangle.png" alt="rectangle" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class="card-title justify-center">Rectangle</h2>
+                        <p class="text-center text-lg">Area (A) = w X l</p>
+                        <div class="flex items-center justify-center">
+                            <input id="rectangle-width" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="w">
+                            <span class="mx-2">cm</span>
+                            <input id="rectangle-length" class="w-24 text-2xl p-2 rounded-sm" type="text"
+                                placeholder="l">
+                            <span class="mx-2">cm</span>
+                        </div>
+                        <div>
+                            <p class="text-lg">Area: <span id="rectangle-area">--</span> <span>cm <sup>2</sup></span>
+                            </p>
+                        </div>
+                        <div class="card-actions">
+                            <button onclick="calculateAreaOfRectangle()"
+                                class="btn btn-primary w-full">Calculate</button>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
