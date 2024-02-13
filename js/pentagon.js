@@ -1,20 +1,20 @@
-function calculateAreaOfRhombus(){
-    //get rhombus Base1 
-    const rhombusBase1Input = document.getElementById('rhombus-base1');
-    const rhombusBase1InputText = rhombusBase1Input.value;
-    const rhombusBase1InputValue = parseFloat(rhombusBase1InputText);
+function calculateAreaOfPentagon(){
+    //get pentagon b 
+    const pentagonBInput = document.getElementById('pentagon-b');
+    const pentagonBInputText = pentagonBInput.value;
+    const pentagonBInputValue = parseFloat(pentagonBInputText);
 
-    //get rhombus Base2
-    const rhombusBase2Input = document.getElementById('rhombus-base2');
-    const rhombusBase2InputText = rhombusBase2Input.value;
-    const rhombusBase2InputValue = parseFloat(rhombusBase2InputText);
+    //get pentagon p
+    const pentagonPInput = document.getElementById('pentagon-p');
+    const pentagonPInputText = pentagonPInput.value;
+    const pentagonPInputValue = parseFloat(pentagonPInputText);
 
     //calculate the area 
-    const area = 0.5 * rhombusBase1InputValue * rhombusBase2InputValue;
+    const area = 0.5 * pentagonBInputValue * pentagonPInputValue;
 
     //display the output
-    const rhombusAreaSpan = document.getElementById('rhombus-area');
-    rhombusAreaSpan.innerText = area;
+    const pentagonAreaSpan = document.getElementById('pentagon-area');
+    pentagonAreaSpan.innerText = area;
 }
 
 
